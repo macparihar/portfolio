@@ -1,0 +1,20 @@
+/* src/app/project-card/project-card.component.css */
+.card {
+    background-color: yellow;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .card-title {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 1em;
+    color: #333;
+  }
+  

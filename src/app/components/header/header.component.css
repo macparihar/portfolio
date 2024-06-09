@@ -13,10 +13,10 @@
     background-color: #333;
     color: #fff;
     padding: 1rem 0;
-    /* position: fixed; */
-    width: 100%;
-    z-index: 1000;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    padding: 25px 25px 22px 25px;
+    width: 100%;  
+    box-shadow: 0 9px 11px rgba(0, 0, 0, 0.4);;
   }
   
   .container {

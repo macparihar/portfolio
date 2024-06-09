@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .btn {
+    background-color: #f0a500;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #d18e00;
+  }
+  
+  .about-section, .projects-section, .skills-section, .contact-section {
+    padding: 7rem 5rem;
+    text-align: center;
+  }
+  
+  .about-section h2, .projects-section h2, .skills-section h2, .contact-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about-section p, .projects-section p, .skills-section p, .contact-section p {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
