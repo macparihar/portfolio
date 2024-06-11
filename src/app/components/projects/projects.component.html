@@ -1,11 +1,13 @@
-<div class="projects-section">
+<div class="projects-section ">
     <h2>My Projects</h2>
-    <div class="container">
-        <app-project-card
-          *ngFor="let project of projects"
-          [title]="project.title"
-          [description]="project.description">
-        </app-project-card>
+    <div class="container ">
+        <div class="row justify-content-center">
+          <div *ngFor="let project of projects" class="col-lg col-md-6 mb-4 me-4" style="max-width: 350px; min-width: 350px;">
+            <app-project-card [project]="project"></app-project-card>
+          </div>
+          
+          
+        </div>
       </div>
   </div> 
 

@@ -1,29 +1,14 @@
 <div class="home">
-    <div class="home-section">
-      <h1>Welcome to My Portfolio</h1>
-      <p>Hi, I'm Milan Parihar, a passionate developer and designer.</p>
-      <a routerLink="/projects" class="btn">View My Work</a>
+  <div class="home-section">
+    <h1>{{title}}</h1>
+    <p>{{description}}</p>
+    <a routerLink="/projects" class="btn">View My Work</a>
+    <div>
+      <button class="btn"   (click)="loadPdf()">View PDF</button>
     </div>
-    <div class="img"> <img src="../../main-img.jpg" alt="photo" >  </div>
+    
+    <app-resume  [pdfUrl]="pdfUrl"></app-resume>
   </div>
-  
-  <div class="about-section">
-    <h2>About Me</h2>
-    <p>A brief introduction about yourself.</p>
-    <a routerLink="/about" class="btn">Learn More</a>
-  </div>
-  
- 
-  
-  <div class="skills-section">
-    <h2>My Skills</h2>
-    <p>Technologies and tools I work with.</p>
-    <a routerLink="/skills" class="btn">View Skills</a>
-  </div>
-  
-  <div class="contact-section">
-    <h2>Contact Me</h2>
-    <p>Let's get in touch.</p>
-    <a routerLink="/contact" class="btn">Contact</a>
-  </div>
-   
+  <div class="img"> <img src="../../../assets/profile.png" alt="photo"  class="profilePic">  </div>
+</div>
+

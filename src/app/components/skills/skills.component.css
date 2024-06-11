@@ -3,3 +3,31 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  .btn {
+    background-color: #f0a500;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #d18e00;
+  }
+  
+   .skills-section {
+    padding: 7rem 5rem;
+    text-align: center;
+  }
+  
+  .skills-section h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .skills-section p {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+  }

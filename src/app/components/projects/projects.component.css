@@ -16,17 +16,19 @@
     background-color: #d18e00;
   }
   
-  .about-section, .projects-section, .skills-section, .contact-section {
-    padding: 7rem 5rem;
+  .projects-section {
+    padding: 7rem 7rem;
     text-align: center;
   }
+
   
-  .about-section h2, .projects-section h2, .skills-section h2, .contact-section h2 {
+   .projects-section h2{
     font-size: 2rem;
     margin-bottom: 1rem;
   }
+
   
-  .about-section p, .projects-section p, .skills-section p, .contact-section p {
+  .projects-section p{
     font-size: 1.25rem;
     margin-bottom: 1.5rem;
   }

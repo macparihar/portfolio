@@ -18,6 +18,9 @@
     "@angular/platform-browser": "^18.0.0",
     "@angular/platform-browser-dynamic": "^18.0.0",
     "@angular/router": "^18.0.0",
+    "bootstrap": "^5.3.3",
+    "ng2-pdf-viewer": "^10.2.2",
+    "ngx-bootstrap": "^6.2.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"
@@ -34,5 +37,9 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "typescript": "~5.4.2"
-  }
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.2.",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }

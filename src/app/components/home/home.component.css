@@ -26,9 +26,9 @@
     font-size: 1.5rem;
     margin-bottom: 2rem;
   }
-  .img{
-    width: 10px;
-    height: 10px;
+  .profilePic{
+    width: 40rem;
+    height: 40rem;
   }
   
   
@@ -36,6 +36,7 @@
     background-color: #f0a500;
     color: white;
     padding: 0.75rem 1.5rem;
+    margin: 20px;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
@@ -45,17 +46,4 @@
     background-color: #d18e00;
   }
   
-  .about-section, .projects-section, .skills-section, .contact-section {
-    padding: 7rem 5rem;
-    text-align: center;
-  }
-  
-  .about-section h2, .projects-section h2, .skills-section h2, .contact-section h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
-  
-  .about-section p, .projects-section p, .skills-section p, .contact-section p {
-    font-size: 1.25rem;
-    margin-bottom: 1.5rem;
-  }
+ 

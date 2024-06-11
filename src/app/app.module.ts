@@ -9,8 +9,10 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { HomeComponent } from './components/home/home.component';
-import { ProjectCardComponent } from './project-card/project-card.component';
+import { ProjectCardComponent } from './components/project-card/project-card.component';
 import { FormsModule } from '@angular/forms';
+import { PdfViewerModule } from 'ng2-pdf-viewer';
+import { ResumeComponent } from './components/resume/resume.component';
 
 @NgModule({
   declarations: [
@@ -22,11 +24,14 @@ import { FormsModule } from '@angular/forms';
     ContactComponent,
     HomeComponent,
     ProjectCardComponent,
+    ResumeComponent,
    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserModule,
+    PdfViewerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

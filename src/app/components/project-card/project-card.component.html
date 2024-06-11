@@ -1,0 +1,15 @@
+<!-- src/app/project-card/project-card.component.html -->
+<div class="card shadow text-center "  style="max-width: 350px; min-width: 350px; position: inherit;">
+  <div class="card-body">
+    <h5 class="card-title">{{ project.name }}</h5>
+    <p class="card-text">{{ project.description }}</p>
+    <button class="btn btn-warning">View More</button>
+  </div>
+  <div class="card-footer">
+    <div class="d-flex flex-wrap justify-content-center">
+      <div *ngFor="let tag of project.tag">
+        <div class="tag me-2 mb-1" [style.background-color]="tag.color">{{tag}}</div>
+      </div>
+    </div>
+  </div>
+</div>

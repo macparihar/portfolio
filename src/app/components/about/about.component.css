@@ -3,3 +3,44 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+ 
+  
+  
+  
+  .about-section{
+    padding: 7rem 5rem;
+    text-align: center;
+  }
+  
+  .about-section h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about-section p{
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+
+ 
+ 
+  .about-section h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .about-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .about-section li {
+    background: #e0e0e0;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    display: inline-block;
+  }
+  
