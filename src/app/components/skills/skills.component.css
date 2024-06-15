@@ -2,23 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-
-  .btn {
-    background-color: #f0a500;
-    color: white;
-    padding: 0.75rem 1.5rem;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-  }
-  
+  }  
   .btn:hover {
     background-color: #d18e00;
   }
   
    .skills-section {
-    padding: 7rem 5rem;
+    padding: 7rem 5rem 1rem 5rem;
     text-align: center;
   }
   
@@ -31,3 +21,80 @@
     font-size: 1.25rem;
     margin-bottom: 1.5rem;
   }
+
+  /* .container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  } */
+  
+  .skill-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f9;
+    font-family: 'Arial, sans-serif';
+  }
+  
+  .skills, .certificates {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  .skill-name, .certificate-title {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .skill-level, .certificate-institution, .certificate-date {
+    color: #666;
+  }
+  
+  .skill-level {
+    background: #e0f7fa;
+    border-radius: 4px;
+    padding: 2px 8px;
+    font-size: 14px;
+  }
+  
+  .certificate-institution {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  
+  .certificate-date {
+    font-size: 12px;
+    color: #999;
+    margin-left: auto;
+  }
+  

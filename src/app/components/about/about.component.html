@@ -1,5 +1,29 @@
 <div class="about-section">
     <h2>{{ title }}</h2>
     <p>{{ description }}</p>
-    
+
+</div>
+
+<div class="about-page">
+
+    <section class="education">
+        <h2>Education Background</h2>
+        <div *ngFor="let edu of education" class="education-item card">
+            <h3>{{ edu.institution }}</h3>
+            <p><strong>{{ edu.degree }}</strong> in {{ edu.fieldOfStudy }}</p>
+            <p class="date">{{ edu.startDate }} - {{ edu.endDate }}</p>
+        </div>
+    </section>
+
+    <section class="work-experience">
+        <h2>Work Experience</h2>
+        <div *ngFor="let work of workExperience" class="work-item card">
+            <h3>{{ work.company }}</h3>
+            <h4>{{ work.role }}</h4>
+            <ul>
+                <li *ngFor="let responsibility of work.responsibilities">{{ responsibility }}</li>
+            </ul>
+            <p class="date">{{ work.startDate }} - {{ work.endDate }}</p>
+        </div>
+    </section>
 </div>

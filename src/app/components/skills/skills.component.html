@@ -1,5 +1,27 @@
 <div class="skills-section">
     <h2>{{title}}</h2>
     <p>{{description}}</p>
-    <a routerLink="/skills" class="btn">View Skills</a>
+</div>
+
+<div class="skill-page">
+  <div class="skills">
+    <h2><i class="fas fa-code"></i>  Skills</h2>
+    <ul>
+      <li *ngFor="let skill of skills">
+        <span class="skill-name"><i class="fas fa-check-circle"></i> {{ skill.name }}</span>
+        <span class="skill-level">{{ skill.level }}</span>
+      </li>
+    </ul>
   </div>
+
+  <div class="certificates">
+    <h2><i class="fas fa-certificate"> </i> Certificates</h2>
+    <ul>
+      <li *ngFor="let certificate of certificates">
+        <span class="certificate-title"> {{ certificate.title }} <i class="fas fa-award"></i> </span>
+        <span class="certificate-institution">{{ certificate.institution }}</span>
+        <span class="certificate-date">{{ certificate.date }}</span>
+      </li>
+    </ul>
+  </div>
+</div>
