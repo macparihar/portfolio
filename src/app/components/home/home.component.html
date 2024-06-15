@@ -3,12 +3,7 @@
     <h1>{{title}}</h1>
     <p>{{description}}</p>
     <a routerLink="/projects" class="btn">View My Work</a>
-    <div>
-      <button class="btn"   (click)="loadPdf()">View PDF</button>
-    </div>
-    
-    <app-resume  [pdfUrl]="pdfUrl"></app-resume>
+    <button (click)="DownloadFile()" class="btn">Resume</button>
   </div>
-  <div class="img"> <img src="../../../assets/profile.png" alt="photo"  class="profilePic">  </div>
+  <div class="img"> <img src="../../../assets/profile.png" alt="photo" class="profilePic"> </div>
 </div>
-

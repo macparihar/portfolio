@@ -8,6 +8,5 @@ import {  projects } from '../models/Project';
 })
 export class ProjectCardComponent {
   @Input() project = {} as projects;
-  
 
 }
