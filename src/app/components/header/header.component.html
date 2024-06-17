@@ -1,15 +1,17 @@
 <header class="navbar">
-    <div class="container">
-      <div class="logo">
-        <a routerLink="/">My Portfolio</a>
-      </div>
-      <ul class="nav-links">
-        <li><a routerLink="/Home" routerLinkActive="active" target="_self">Home</a></li>
-        <li><a routerLink="/about" routerLinkActive="active" target="_top">About</a></li>
-        <li><a routerLink="/projects" routerLinkActive="active" target="_self">Projects</a></li>
-        <li><a routerLink="/skills" routerLinkActive="active">Skills</a></li>
-        <li><a routerLink="/contact" routerLinkActive="active">Contact</a></li>
-      </ul>
+  <div class="container">
+    <div class="logo">
+      <a routerLink="/">Milan Parihar</a>
     </div>
-  </header>
-  
+    <div class="nav-toggle" (click)="toggleMenu()">
+      <i class="fas fa-bars"></i>
+    </div>
+    <ul class="nav-links" [ngClass]="{'show': isMenuOpen}">
+      <li><a routerLink="/Home" routerLinkActive="active" target="_self"><i class="fas fa-home"></i><span>Home</span></a></li>
+      <li><a routerLink="/about" routerLinkActive="active" target="_top"><i class="fas fa-user"></i><span>About</span></a></li>
+      <li><a routerLink="/projects" routerLinkActive="active" target="_top"><i class="fas fa-briefcase"></i><span>Projects</span></a></li>
+      <li><a routerLink="/skills" routerLinkActive="active" target="_top"><i class="fas fa-code"></i><span>Skills</span></a></li>
+      <li><a routerLink="/contact" routerLinkActive="active" target="_top"><i class="fas fa-envelope"></i><span>Contact</span></a></li>
+    </ul>
+  </div>
+</header>

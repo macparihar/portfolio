@@ -32,3 +32,25 @@
     font-size: 1.25rem;
     margin-bottom: 1.5rem;
   }
+
+  @media (max-width: 768px) {
+
+    .projects-section{
+      padding: 1rem 1rem 1rem 1rem;
+      text-align: center;
+    }
+    .container{
+      margin: 8px;
+    }
+    
+  }
+  @media (max-width: 480px) {
+
+    .projects-section h2 {
+      font-size: 1.3rem;
+     
+      margin-bottom: 1rem;
+      font-weight: bold;
+    }
+
+  }

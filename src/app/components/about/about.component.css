@@ -92,4 +92,19 @@
   
  
  
- 
+  @media (max-width: 768px) {
+
+    .about-section{
+      padding: 1rem;
+      text-align: center;
+    }
+  }
+  @media (max-width: 480px) {
+
+    .about-section h2 {
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+      font-weight: bold;
+    }
+
+  }

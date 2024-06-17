@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { PdfViewerModule } from 'ng2-pdf-viewer';
 import { AppRoutingModule } from './app-routing.module';
 
@@ -12,6 +12,7 @@ import { SkillsComponent } from './components/skills/skills.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { HomeComponent } from './components/home/home.component';
 import { ProjectCardComponent } from './components/project-card/project-card.component';
+import { RouterModule, Routes } from '@angular/router';
 // import { ModalModule } from 'ngx-bootstrap/modal';
 
 @NgModule({
@@ -32,7 +33,9 @@ import { ProjectCardComponent } from './components/project-card/project-card.com
     BrowserModule,
     PdfViewerModule,
     FormsModule,
-    // ModalModule.forRoot(),
+    ReactiveFormsModule,
+    RouterModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
